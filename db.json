@@ -1,0 +1,39 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "user": "Panda",
+      "comment": "Cool article!",
+      "date": "2018-01-01"
+    },
+    {
+      "user": "Maria",
+      "comment": "testing 123",
+      "date": "2018-01-15",
+      "id": 2
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "name": "Panda & Polar Bear",
+      "email": "panda@polar.bear",
+      "subject": "Hello there!",
+      "message": "Lovely thing you've got here! Wanna collab on a project?"
+    },
+    {
+      "name": "John Doe",
+      "email": "john@doe",
+      "subject": "Aloha!",
+      "message": "'Sup?",
+      "id": 2
+    },
+    {
+      "name": "Irina",
+      "email": "irina@irina.com",
+      "subject": "Hey twinseee",
+      "message": "much twinsee such wow",
+      "id": 3
+    }
+  ]
+}

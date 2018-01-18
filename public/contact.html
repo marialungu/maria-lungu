@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maria Lungu</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Inconsolata|Lato:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/animation.css">
+
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <script type="text/javascript" src="../js/contact.js"></script>
+</head>
+<body class="container">
+    <div class="main-navbar">
+        <div class="ml-menu-icon dropdown">
+            <img class="menu-icon" src="images/menu-icon.png" alt="Menu Icon"> 
+            <ul class="dropdown-content">
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="ml-logo">
+            <a href="index.html">
+                <img class="logo" src="images/ML_logo_web2.png" alt="Logo Image">
+            </a>
+        </div>
+    </div>
+
+    <div class="lg-grid-item-9 md-grid-item-9 xs-grid-item-11">
+        <div class="content-container">
+            <h1 class="ml-h1 archi-black animated">Drop a line.</h1>
+            <p class="ml-p">If you have any questions leave me a message:</p><br>
+            <section>
+                <form class="ml-row" onsubmit="return sendingMessage();">
+                    <div class="lg-grid-item-6 md-grid-item-6 xs-grid-item-12">
+                        <label for="name" class="ml-p inconsolata inconsolata-spacing">Name</label>
+                        <input type="text" class="input-field inconsolata inconsolata-spacing" name="name" id="name" placeholder="John Doe">
+                    </div>
+                    
+                    <div class="lg-grid-item-6 md-grid-item-6 xs-grid-item-12">
+                        <label for="email" class="ml-p inconsolata inconsolata-spacing">Email Address</label>
+                        <input type="email" class="input-field inconsolata inconsolata-spacing" name="email" id="email" placeholder="johndoe@example.com">
+                    </div>
+                    
+                    <div class="lg-grid-item-12 md-grid-item-12 xs-grid-item-12">
+                        <label for="subject" class="ml-p inconsolata inconsolata-spacing">Subject</label>
+                        <input type="text" class="input-field inconsolata inconsolata-spacing" name="subject" id="subject" placeholder="Greetings">
+                    </div>
+
+                    <div class="lg-grid-item-12 md-grid-item-12 xs-grid-item-12">
+                        <label for="message" class="ml-p inconsolata inconsolata-spacing">Message</label>
+                        <textarea class="add-message inconsolata inconsolata-spacing" name="message" id="message" placeholder="Hello!.."></textarea>
+                    </div>
+
+                    <div class="lg-grid-item-12 md-grid-item-12 xs-grid-item-12">
+                        <div class="ml-p thank-you-notice inconsolata inconsolata-spacing" style="visibility:hidden;" id="thankYou">
+                            Thank you for your support and feedback! I will get back at you as soon as possible!
+                        </div>
+                    </div>
+
+                    <div class="lg-grid-item-12 md-grid-item-12 xs-grid-item-12">
+                        <button class="send-form inconsolata inconsolata-spacing" type="submit" name="submit">SEND</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,273 @@
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media(min-width: 1280px){
+    .lg-grid-item-1{
+        width: 8.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .lg-grid-item-2{
+        width: 16.66%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .lg-grid-item-3{
+        width: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .lg-grid-item-4{
+        width: 33.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .lg-grid-item-5{
+        width: 41.66%;
+        padding-left: 15px;
+        padding-right: 15px;;
+        float: left;
+    }
+    
+    .lg-grid-item-6{
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .lg-grid-item-7{
+        width: 58.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .lg-grid-item-8{
+        width: 66.66%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .lg-grid-item-9{
+        width: 75%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .lg-grid-item-10{
+        width: 83.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .lg-grid-item-11{
+        width: 91.66%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .lg-grid-item-12{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }    
+}
+
+@media(min-width: 768px) and (max-width: 1280px){
+    .md-grid-item-1{
+        width: 8.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .md-grid-item-2{
+        width: 16.66%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .md-grid-item-3{
+        width: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .md-grid-item-4{
+        width: 33.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .md-grid-item-5{
+        width: 41.66%;
+        padding-left: 15px;
+        padding-right: 15px;;
+        float: left;
+    }
+    
+    .md-grid-item-6{
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .md-grid-item-7{
+        width: 58.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .md-grid-item-8{
+        width: 66.66%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .md-grid-item-9{
+        width: 75%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .md-grid-item-10{
+        width: 83.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .md-grid-item-11{
+        width: 91.66%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .md-grid-item-12{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+}
+
+@media(max-width: 768px){
+    .xs-grid-item-1{
+        width: 8.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .xs-grid-item-2{
+        width: 16.66%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .xs-grid-item-3{
+        width: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .xs-grid-item-4{
+        width: 33.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .xs-grid-item-5{
+        width: 41.66%;
+        padding-left: 15px;
+        padding-right: 15px;;
+        float: left;
+    }
+    
+    .xs-grid-item-6{
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .xs-grid-item-7{
+        width: 58.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .xs-grid-item-8{
+        width: 66.66%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .xs-grid-item-9{
+        width: 75%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .xs-grid-item-10{
+        width: 83.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .xs-grid-item-11{
+        width: 91.66%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+    
+    .xs-grid-item-12{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+}
