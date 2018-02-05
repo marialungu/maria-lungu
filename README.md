@@ -10,6 +10,7 @@ git clone https://github.com/marialungu/maria-lungu.git
 
 Before accessing and running Maria Lungu you'll need a JSON server.
 
+
 ### Installing
 
 First install JSON server:
@@ -18,6 +19,7 @@ First install JSON server:
 npm install -g json-server
 ```
 
+
 ### Running the server
 
 Run the JSON server using the following command: 
@@ -25,6 +27,7 @@ Run the JSON server using the following command:
 ```
 json-server --watch db.json
 ```
+
 
 ### Access
 
